@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+<rect width="900" height="1100" fill="#A63D0E"/>
+<line x1="136.2" y1="117.5" x2="758.3" y2="131.2" stroke="#F7F1E6" stroke-width="5.7" stroke-linecap="round" opacity="0.1"/>
+<line x1="150.3" y1="281.4" x2="775.9" y2="270.3" stroke="#F7F1E6" stroke-width="2.9" stroke-linecap="round" opacity="0.1"/>
+<line x1="169.9" y1="436.3" x2="503.8" y2="412.3" stroke="#F7F1E6" stroke-width="2.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="-62.8" y1="393.8" x2="641.5" y2="414.9" stroke="#F7F1E6" stroke-width="4.3" stroke-linecap="round" opacity="0.1"/>
+<line x1="118.8" y1="606.5" x2="477.9" y2="629.1" stroke="#F7F1E6" stroke-width="4.4" stroke-linecap="round" opacity="0.1"/>
+<line x1="-142.6" y1="370.8" x2="237.8" y2="376.6" stroke="#F7F1E6" stroke-width="5.9" stroke-linecap="round" opacity="0.1"/>
+<line x1="17.4" y1="1089.5" x2="615.5" y2="1078.3" stroke="#F7F1E6" stroke-width="5.4" stroke-linecap="round" opacity="0.1"/>
+<line x1="85.1" y1="122.7" x2="697.3" y2="147.0" stroke="#F7F1E6" stroke-width="2.3" stroke-linecap="round" opacity="0.1"/>
+    <g transform="translate(495.00000000000006,682.0) scale(2.0)" fill="#F7F1E6">
+        <ellipse cx="-2" cy="-90" rx="15" ry="17"/>
+        <path d="M -4,-74 C 8,-70 14,-52 10,-34 C 6,-16 -6,-2 -20,8 L -30,-2
+                 C -18,-10 -10,-22 -8,-36 C -20,-30 -34,-22 -44,-10 L -54,-20
+                 C -40,-36 -20,-48 2,-54 C -6,-62 -8,-68 -4,-74 Z"/>
+        <path d="M 8,-56 L 66,-92 L 70,-82 L 16,-40 Z"/>
+        <path d="M -8,-36 C -6,-18 -14,-2 -28,10 L -40,2 C -28,-8 -22,-22 -22,-34 Z"/>
+        <path d="M -20,8 C -22,26 -30,42 -44,52 L -56,44 C -44,34 -38,20 -36,4 Z"/>
+    </g><text x="40" y="1050" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="2" fill="#F7F1E6" opacity="0.85">TENNIS</text>
+</svg>

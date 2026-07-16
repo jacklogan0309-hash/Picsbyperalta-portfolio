@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+<rect width="900" height="1100" fill="#A63D0E"/>
+<line x1="115.9" y1="522.0" x2="745.7" y2="551.4" stroke="#F7F1E6" stroke-width="2.1" stroke-linecap="round" opacity="0.1"/>
+<line x1="-56.7" y1="412.2" x2="650.9" y2="406.1" stroke="#F7F1E6" stroke-width="4.6" stroke-linecap="round" opacity="0.1"/>
+<line x1="117.6" y1="614.0" x2="466.1" y2="634.3" stroke="#F7F1E6" stroke-width="3.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="-153.5" y1="996.6" x2="558.6" y2="985.4" stroke="#F7F1E6" stroke-width="1.8" stroke-linecap="round" opacity="0.1"/>
+<line x1="2.1" y1="370.7" x2="727.0" y2="397.1" stroke="#F7F1E6" stroke-width="1.6" stroke-linecap="round" opacity="0.1"/>
+<line x1="49.0" y1="1006.5" x2="368.1" y2="979.7" stroke="#F7F1E6" stroke-width="5.9" stroke-linecap="round" opacity="0.1"/>
+<line x1="10.4" y1="123.8" x2="353.4" y2="116.5" stroke="#F7F1E6" stroke-width="2.9" stroke-linecap="round" opacity="0.1"/>
+<line x1="133.6" y1="179.9" x2="431.3" y2="160.9" stroke="#F7F1E6" stroke-width="2.3" stroke-linecap="round" opacity="0.1"/>
+    <g transform="translate(495.00000000000006,682.0) scale(2.0)" fill="#F7F1E6">
+        <ellipse cx="0" cy="-92" rx="16" ry="18"/>
+        <path d="M -6,-76 C 10,-70 18,-40 8,-8 C 4,10 -10,20 -26,26 L -34,14
+                 C -20,6 -10,-6 -8,-24 C -22,-18 -40,-6 -50,10 L -62,2
+                 C -46,-20 -22,-40 -2,-52 C -10,-62 -12,-70 -6,-76 Z"/>
+        <path d="M 6,-40 C 24,-34 40,-18 46,4 L 34,10 C 28,-6 16,-20 2,-26 Z"/>
+        <path d="M -2,-6 C 14,2 26,18 24,40 L 10,42 C 12,24 2,10 -10,4 Z"/>
+        <path d="M -10,4 C -26,10 -40,26 -44,46 L -58,42 C -52,20 -34,2 -14,-6 Z"/>
+    </g><text x="40" y="1050" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="2" fill="#F7F1E6" opacity="0.85">TRACK</text>
+</svg>

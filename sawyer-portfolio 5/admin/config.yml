@@ -1,0 +1,125 @@
+# Decap CMS config for Pics by Peralta.
+# This file controls everything Sawyer/Jack sees in the /admin editor.
+# It edits real files in this repo directly — every save here is a
+# commit, and Netlify rebuilds the live site automatically within
+# about a minute of a save.
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Photos uploaded through the editor land in assets/photos/ and get
+# committed alongside the site's existing photos.
+media_folder: "assets/photos"
+public_folder: "assets/photos"
+
+collections:
+  - name: "photos"
+    label: "Photos"
+    files:
+      - name: "gallery"
+        label: "Photo Gallery"
+        file: "assets/photos/meta.json"
+        description: >
+          Every photo on the site — the homepage grid, the full gallery,
+          and the category filters are all built from this one list.
+          Add a photo, delete one, change its category, or feature it
+          on the homepage — the live site updates automatically.
+        fields:
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}} — {{fields.category}}"
+            fields:
+              - label: "Photo"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: >
+                  Only set this when adding a brand-new photo. Existing
+                  photos are already matched to their file automatically
+                  — leave this blank for them.
+              - label: "Existing filename (for photos already on the site)"
+                name: "slug"
+                widget: "string"
+                required: false
+                hint: >
+                  Do not change this for existing photos — it's how the
+                  photo finds its image file and its shareable link.
+                  Leave blank for a brand-new photo you just uploaded above.
+              - label: "Category"
+                name: "category"
+                widget: "string"
+                required: true
+                hint: >
+                  Lowercase, one word — e.g. football, track, basketball,
+                  baseball, wrestling, volleyball, nature, crowd. Typing a
+                  brand-new word here (e.g. "soccer") automatically adds a
+                  new filter tab and section for it — no other setup needed.
+              - label: "Caption"
+                name: "caption"
+                widget: "string"
+                required: true
+                hint: "Shown under the photo, e.g. \"Football — Andover\""
+              - label: "Featured tile (homepage grid)"
+                name: "bentoSlot"
+                widget: "select"
+                required: false
+                options:
+                  - { label: "Not featured", value: "" }
+                  - { label: "Homepage tile A (large, top-left)", value: "a" }
+                  - { label: "Homepage tile B", value: "b" }
+                  - { label: "Homepage tile C", value: "c" }
+                  - { label: "Homepage tile D", value: "d" }
+                  - { label: "Homepage tile E", value: "e" }
+                  - { label: "Homepage tile F", value: "f" }
+                  - { label: "Homepage tile G", value: "g" }
+                  - { label: "Homepage tile H", value: "h" }
+                hint: >
+                  Only 8 photos show on the homepage grid — one per
+                  letter. Setting two photos to the same letter means
+                  only one of them will show.
+
+  - name: "about"
+    label: "About Page"
+    files:
+      - name: "about"
+        label: "About Page Content"
+        file: "content/about.json"
+        fields:
+          - label: "Portrait Photo"
+            name: "portrait"
+            widget: "image"
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+          - label: "Bio Paragraphs"
+            name: "bio"
+            widget: "list"
+            summary: "{{fields.paragraph}}"
+            field: { label: "Paragraph", name: "paragraph", widget: "text" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "settings"
+        label: "Instagram, Contact & Footer"
+        file: "content/settings.json"
+        fields:
+          - label: "Instagram URL"
+            name: "instagramUrl"
+            widget: "string"
+          - label: "Contact Email"
+            name: "contactEmail"
+            widget: "string"
+          - label: "Contact Phone (displayed)"
+            name: "contactPhoneDisplay"
+            widget: "string"
+            hint: 'e.g. "(913) 555-0142"'
+          - label: "Contact Phone (link, digits only)"
+            name: "contactPhoneHref"
+            widget: "string"
+            hint: 'e.g. "+19135550142" — no spaces, dashes, or parentheses'
+          - label: "Footer Text"
+            name: "footerText"
+            widget: "string"

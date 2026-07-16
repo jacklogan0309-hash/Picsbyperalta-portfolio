@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sawyer Peralta — Photography</title>
+<meta name="description" content="Sawyer Peralta, photographer. Action, intensity, the decisive moment — and what comes after sports.">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="wordmark">PICS<span> BY PERALTA</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="#gallery">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-book">Book</a></li>
+  </ul>
+</nav>
+
+<div class="intro">
+  <p class="intro-eyebrow">Overland Park &amp; beyond</p>
+  <h1 class="intro-title">Every game has one moment.</h1>
+  <p class="intro-sub">I show up early, stay late, and wait for the one frame that actually happened — not the one everyone already expects. Sports is most of what's here today. It won't be all of it for long.</p>
+</div>
+
+<!-- Bento intro: deliberately mixed tile sizes, real shots, mixed
+     genres in the very first view — sports plus the farmland/animal
+     work Sawyer's been shooting alongside it.
+     Filled in at load time from assets/photos/meta.json (see script.js) —
+     edit which photos appear here via the "Featured tile" field in
+     the /admin editor, not by hand-editing this markup. -->
+<div class="bento-grid" id="gallery"></div>
+
+<div class="scroll-cue">More below</div>
+
+<section id="more">
+  <div class="section-head">
+    <div>
+      <p class="section-kicker">The full set</p>
+      <h2 class="section-title">Everything, by category.</h2>
+      <p class="section-copy">Sports is the flagship today — filter below to browse by sport, or just scroll. New categories get added here as new work actually gets shot, not before.</p>
+    </div>
+  </div>
+
+  <!-- Tabs are generated from whatever categories exist in meta.json,
+       so a new category (e.g. "Soccer") shows up automatically the
+       first time a photo is tagged with it — no HTML edit needed. -->
+  <div class="filter-tabs" role="tablist" aria-label="Filter by category"></div>
+
+  <!-- Every photo from assets/photos/meta.json renders here at load
+       time (see script.js). Add/remove/recaption photos through the
+       /admin editor, not by hand-editing this list. -->
+  <div class="gallery-grid"></div>
+</section>
+
+<div class="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<footer class="site-footer">
+  <span id="footer-copyright">&copy; 2026 Sawyer Peralta Photography</span>
+  <a id="footer-instagram" href="https://www.instagram.com/picsbyperalta/" target="_blank" rel="noopener">Instagram</a>
+  <a href="contact.html">Book a shoot &rarr;</a>
+</footer>
+
+<script src="script.js"></script>
+<!-- Handles Sawyer's/your invite-to-editor email link: lets you set a
+     password, then sends you straight to /admin. Harmless if no one's
+     ever clicked an invite link. -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

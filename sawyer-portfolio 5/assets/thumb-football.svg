@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+<rect width="900" height="1100" fill="#A63D0E"/>
+<line x1="13.0" y1="628.5" x2="595.2" y2="609.7" stroke="#F7F1E6" stroke-width="2.4" stroke-linecap="round" opacity="0.1"/>
+<line x1="114.1" y1="905.9" x2="470.6" y2="916.3" stroke="#F7F1E6" stroke-width="3.8" stroke-linecap="round" opacity="0.1"/>
+<line x1="248.8" y1="275.0" x2="1056.9" y2="253.4" stroke="#F7F1E6" stroke-width="1.7" stroke-linecap="round" opacity="0.1"/>
+<line x1="-8.3" y1="663.5" x2="414.9" y2="666.1" stroke="#F7F1E6" stroke-width="4.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="117.8" y1="754.4" x2="459.6" y2="725.5" stroke="#F7F1E6" stroke-width="5.0" stroke-linecap="round" opacity="0.1"/>
+<line x1="96.0" y1="1066.3" x2="389.9" y2="1088.3" stroke="#F7F1E6" stroke-width="1.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="-43.7" y1="1035.1" x2="424.0" y2="1046.2" stroke="#F7F1E6" stroke-width="5.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="16.2" y1="603.9" x2="321.3" y2="583.2" stroke="#F7F1E6" stroke-width="4.1" stroke-linecap="round" opacity="0.1"/>
+    <g transform="translate(495.00000000000006,682.0) scale(2.0)" fill="#F7F1E6">
+        <ellipse cx="0" cy="-92" rx="16" ry="18"/>
+        <path d="M -6,-76 C 10,-70 18,-40 8,-8 C 4,10 -10,20 -26,26 L -34,14
+                 C -20,6 -10,-6 -8,-24 C -22,-18 -40,-6 -50,10 L -62,2
+                 C -46,-20 -22,-40 -2,-52 C -10,-62 -12,-70 -6,-76 Z"/>
+        <path d="M 6,-40 C 24,-34 40,-18 46,4 L 34,10 C 28,-6 16,-20 2,-26 Z"/>
+        <path d="M -2,-6 C 14,2 26,18 24,40 L 10,42 C 12,24 2,10 -10,4 Z"/>
+        <path d="M -10,4 C -26,10 -40,26 -44,46 L -58,42 C -52,20 -34,2 -14,-6 Z"/>
+    </g><text x="40" y="1050" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="2" fill="#F7F1E6" opacity="0.85">FOOTBALL</text>
+</svg>

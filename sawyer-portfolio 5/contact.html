@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Sawyer Peralta</title>
+<meta name="description" content="Book Sawyer Peralta for your next game or event.">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="wordmark">PICS<span> BY PERALTA</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="index.html#gallery">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-book" aria-current="page">Book</a></li>
+  </ul>
+</nav>
+
+<section style="padding-top: calc(var(--nav-height) + 64px);">
+  <div class="contact-wrap">
+    <p class="section-kicker">Book a shoot</p>
+    <h1 class="section-title" style="margin-bottom: 16px;">Tell me about the shoot.</h1>
+    <p class="section-copy">Date, sport, team or event, and what you need the photos for — that's enough to start.</p>
+
+    <!-- Mailto address, phone number, and footer info below come from
+         content/settings.json at load time (see script.js). Edit them
+         through the /admin editor, not by hand-editing this markup. -->
+    <form id="contact-form" class="contact-form" action="mailto:hello@sawyerperalta.com" method="post" enctype="text/plain">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="details">Event details</label>
+        <textarea id="details" name="details" required></textarea>
+      </div>
+      <button type="submit" class="btn" style="align-self: flex-start;">Send</button>
+    </form>
+
+    <div class="contact-direct">
+      Prefer email or a call directly? <a id="contact-email-link" href="mailto:hello@sawyerperalta.com">hello@sawyerperalta.com</a> &middot; <a id="contact-phone-link" href="tel:+19135550142">(913) 555-0142</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span id="footer-copyright">&copy; 2026 Sawyer Peralta Photography</span>
+  <a id="footer-instagram" href="https://www.instagram.com/picsbyperalta/" target="_blank" rel="noopener">Instagram</a>
+  <a href="index.html">Back to home</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

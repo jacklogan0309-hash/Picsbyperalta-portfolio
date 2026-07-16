@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+<rect width="900" height="1100" fill="#7A2E0A"/>
+<line x1="71.9" y1="497.6" x2="841.0" y2="497.1" stroke="#F7F1E6" stroke-width="3.6" stroke-linecap="round" opacity="0.1"/>
+<line x1="-96.9" y1="646.1" x2="449.5" y2="628.5" stroke="#F7F1E6" stroke-width="4.3" stroke-linecap="round" opacity="0.1"/>
+<line x1="-43.5" y1="103.5" x2="275.5" y2="91.9" stroke="#F7F1E6" stroke-width="5.1" stroke-linecap="round" opacity="0.1"/>
+<line x1="262.0" y1="46.1" x2="1053.0" y2="39.1" stroke="#F7F1E6" stroke-width="4.4" stroke-linecap="round" opacity="0.1"/>
+<line x1="-173.2" y1="173.2" x2="382.1" y2="191.8" stroke="#F7F1E6" stroke-width="1.8" stroke-linecap="round" opacity="0.1"/>
+<line x1="-166.5" y1="266.1" x2="354.1" y2="245.6" stroke="#F7F1E6" stroke-width="3.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="108.1" y1="571.0" x2="648.0" y2="573.6" stroke="#F7F1E6" stroke-width="4.5" stroke-linecap="round" opacity="0.1"/>
+<line x1="268.9" y1="306.0" x2="1076.6" y2="293.5" stroke="#F7F1E6" stroke-width="5.3" stroke-linecap="round" opacity="0.1"/>
+    <g transform="translate(495.00000000000006,682.0) scale(2.0)" fill="#F7F1E6">
+        <ellipse cx="4" cy="-104" rx="15" ry="17"/>
+        <path d="M -4,-88 C 14,-84 22,-64 18,-44 C 30,-52 44,-64 52,-80 L 64,-70
+                 C 54,-50 36,-32 16,-20 C 10,-4 2,10 -6,22 L -20,16
+                 C -10,4 -4,-10 -4,-24 C -18,-16 -34,-6 -44,10 L -56,0
+                 C -42,-20 -22,-36 0,-46 C -8,-60 -10,-76 -4,-88 Z"/>
+        <path d="M -6,22 C -4,40 -8,58 -18,72 L -32,66 C -24,54 -20,40 -22,26 Z"/>
+    </g><text x="40" y="1050" font-family="Helvetica, Arial, sans-serif" font-size="34" letter-spacing="2" fill="#F7F1E6" opacity="0.85">BASKETBALL</text>
+</svg>
