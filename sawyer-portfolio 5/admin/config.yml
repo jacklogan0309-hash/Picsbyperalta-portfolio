@@ -10,7 +10,7 @@ backend:
 
 # Photos uploaded through the editor land in assets/photos/ and get
 # committed alongside the site's existing photos.
-media_folder: "assets/photos"
+media_folder: "sawyer-portfolio 5/assets/photos"
 public_folder: "assets/photos"
 
 collections:
@@ -19,7 +19,7 @@ collections:
     files:
       - name: "gallery"
         label: "Photo Gallery"
-        file: "assets/photos/meta.json"
+        file: "sawyer-portfolio 5/assets/photos/meta.json"
         description: >
           Every photo on the site — the homepage grid, the full gallery,
           and the category filters are all built from this one list.
@@ -85,7 +85,7 @@ collections:
     files:
       - name: "about"
         label: "About Page Content"
-        file: "content/about.json"
+        file: "sawyer-portfolio 5/content/about.json"
         fields:
           - label: "Portrait Photo"
             name: "portrait"
@@ -104,7 +104,7 @@ collections:
     files:
       - name: "settings"
         label: "Instagram, Contact & Footer"
-        file: "content/settings.json"
+        file: "sawyer-portfolio 5/content/settings.json"
         fields:
           - label: "Instagram URL"
             name: "instagramUrl"
